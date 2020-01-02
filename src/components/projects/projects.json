@@ -1,0 +1,88 @@
+
+     [
+      {
+        "id": 1,
+        "img": "./img/Sat.png",
+        "title": "SateliteBase",
+        "body": "JavaScript Satelite and Planet App",
+        "url": "https://github.com/AndreaKlenovsek/SateliteBase"
+      },
+      {
+        "id": 2,
+        "img": "./img/profile.png",
+        "title": "Person Profile",
+        "body": "Profile Template Page",
+        "url": "https://github.com/AndreaKlenovsek/PersonProfile"
+      },
+      {
+        "title": "StarWars Finder",
+        "body": "JavaScript Autocomplete App",
+        "id": 3,
+        "img": "./img/starWars.png",
+        "url": "https://github.com/AndreaKlenovsek/StarwarsFinder"
+      },
+      {
+        "title": "Christmas Art",
+        "body": "Particles.js and GSAP animation",
+        "id": 4,
+        "img": "./img/christmas.png",
+        "url": "https://github.com/AndreaKlenovsek/christmasCard"
+      },
+      {
+        "title": "Barber Bootstrap",
+        "body": "SVG Christmas navbar decoration",
+        "id": 5,
+        "img": "./img/barber.png",
+        "url": "https://github.com/AndreaKlenovsek/Barber_btstr"
+      },
+      {
+        "title": "Music Player",
+        "body": "JavaScript Mini Music Player",
+        "id": 6,
+        "img": "./img/musicPlayer.png",
+        "url": "https://github.com/AndreaKlenovsek/MusicPlayer"
+      },
+      {
+        "title": "PowerBox",
+        "body": "Funny SignUp Form",
+        "id": 7,
+        "img": "./img/powerBox.png",
+        "url": "https://github.com/AndreaKlenovsek/PowerBox"
+      },
+      {
+        "title": "Appey",
+        "body": "Template Page",
+        "id": 8,
+        "img": "./img/appey.png",
+        "url": "https://github.com/AndreaKlenovsek/Appey"
+      },
+      {
+        "title": "EcoSystem",
+        "body": "Template Page",
+        "id": 9,
+        "img": "./img/eco.png",
+        "url": "https://github.com/AndreaKlenovsek/EcoSystem"
+      },
+      {
+        "title": "Mountain Cabin",
+        "body": "Template Page",
+        "id": 10,
+        "img": "./img/mountainCabin.png",
+        "url": "https://github.com/AndreaKlenovsek/Mountain-Cabin"
+      },
+      {
+        "title": "Bird Society",
+        "body": "Template Page",
+        "id": 11,
+        "img": "./img/birds.png",
+        "url": "https://github.com/AndreaKlenovsek/Birds"
+      },
+      {
+        "title": "Culinary",
+        "body": "Template Page",
+        "id": 12,
+        "img": "./img/culinary.png",
+        "url": "https://github.com/AndreaKlenovsek/Culinary"
+      }
+    ]
+  

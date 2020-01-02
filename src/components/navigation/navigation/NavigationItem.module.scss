@@ -1,0 +1,45 @@
+@import "../../../containers/styles/utilities";
+
+
+.NavigationItem {
+padding: .5em;
+width: 100%;
+}
+
+  
+.NavigationItem a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: block;
+    font-size: 1.1rem;
+
+    &:hover,
+    &:active,
+    &.active {
+   
+    color: $clr-yellow !important;
+    font-size: 1.3rem;
+
+    }
+    
+
+    }
+
+    @media(max-width: 800px) {
+        .NavigationItem a {
+        font-size: 0.9rem;
+         
+
+        &:hover,
+        &:active,
+        &.active {
+       
+        color: $clr-yellow !important;
+        font-size: 1rem;
+    
+        }
+        }
+        }
+
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$blues: (
+dark: #022448,
+meduim: #558DCA,
+light: #C8EFF9,
+neon: #16FEFF,
+);
+
+$clr-orange: #F27D42;
+$clr-yellow: rgb(165, 139, 12);
+$clr-purple: #37002E;
+
+
+$ff-roboto: 'Roboto', sans-serif;
+
+// Return blue shade
+@function blue($shade) {
+$value: map-get($blues, $shade);
+@return $value;    
+}
+
+@mixin container($width: 80%, $mtop: 2em) {
+width: $width;
+height: 100%;
+margin: $mtop auto;
+}

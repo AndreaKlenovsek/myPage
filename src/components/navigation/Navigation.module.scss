@@ -1,0 +1,23 @@
+@import "../../containers/styles/utilities";
+
+.Navigation {
+list-style: none;
+display: flex;
+position: absolute;
+right: 1em;
+top: 0;
+width: 40%;
+
+}
+
+
+
+        
+       
+
+
+@media(max-width: 800px) {
+.Navigation {
+display: none;
+}
+}

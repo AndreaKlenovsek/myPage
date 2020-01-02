@@ -1,0 +1,73 @@
+@import "../../containers/styles/utilities";
+
+.Button {
+background: transparent;
+border: none;
+font-size: 2rem;
+font-weight: bold;
+color: $clr-purple;
+position: relative;
+outline: none;
+margin-bottom: .2em;
+
+&::after {
+content: '';
+background: $clr-purple;
+height: 2px;
+width: 50%;
+position: absolute;
+right: 0;
+top: 100%;
+transition: all 300ms ease-in-out;
+}
+
+&:hover, &:active { 
+&::after {
+ width: 100%;
+}
+}
+
+&:focus {
+outline: none;
+}
+}
+
+.White {
+color: white;
+&::after {
+    content: '';
+    background: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 100%;
+
+    }
+}
+
+.Purple {
+color: $clr-purple;
+}
+
+@media(max-width: 800px) {
+.Button {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: .7em;
+
+    &::after {
+        content: '';
+        background: white;
+    }
+}
+
+.White {
+    color: $clr-yellow;
+    &::after {
+        content: '';
+        background: $clr-yellow;
+    
+        }
+}
+}

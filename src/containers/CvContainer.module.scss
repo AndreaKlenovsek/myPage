@@ -1,0 +1,60 @@
+@import "./styles/utilities";
+
+.CvContainer {
+background: $clr-purple;
+width: auto;
+height: auto;
+box-shadow: 5px 10px 10px rgba(0,0,0, .4);
+position: relative;
+overflow: hidden;
+border-radius: 5px;
+margin: 2em auto;
+
+}
+
+.Prince {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: relative;
+}
+
+
+@media(max-width: 800px) {
+    .Prince {
+    display: none;
+    }
+    }
+
+
+    @media(min-width: 400px) {
+        .CvContainer {
+        width: 400px;
+         margin: 2em auto;
+        }
+        }
+
+
+@media(min-width: 800px) {
+    .CvContainer {
+    width: 800px;
+     height: 600px;
+     margin: 2em auto;
+    }
+    }
+
+@media(min-width: 1600px) {
+.CvContainer {
+width: 1000px;
+height: 700px;
+margin-top: 0;
+}
+}

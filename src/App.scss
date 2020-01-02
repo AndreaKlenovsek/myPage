@@ -1,0 +1,83 @@
+@import "containers/styles/utilities"; 
+
+
+* {
+box-sizing: border-box;
+}
+
+body {
+height: auto;
+background: $clr-yellow !important;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: $ff-roboto !important;
+position: relative;
+}
+
+.dots {
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+}
+
+.dot1 {
+position: absolute;
+left: 15%;
+width: 18%;
+top: 20%;
+display: none;
+}
+
+.dot2 {
+position: absolute;
+right: 15%;
+width: 10%;
+top: 20%;
+display: none;
+}
+    
+.dot3 {
+position: absolute;
+right: 15%;
+width: 5%;
+top:50%;
+display: none;
+}
+
+.dot4 {
+position: absolute;
+left: 15%;
+width: 5%;
+top:60%;
+display: none;
+}
+            
+        
+
+
+
+@media(min-width: 1600px) {
+body {
+height: 100vh;
+width: 100vw;
+}
+
+.dot1 {
+display: block;
+}
+
+.dot2 {
+display: block;
+}
+
+.dot3 {
+display: block;
+}
+
+.dot4 {
+display: block;
+} 
+}

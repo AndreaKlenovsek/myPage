@@ -1,0 +1,19 @@
+.Logo {
+position: absolute;
+top: -16px;
+left: -50px;
+margin-left: 1em;
+color:  rgb(165, 139, 12);
+font-size: 3.5rem;
+font-weight: bold;
+z-index: 1000;
+}
+
+
+@media(min-width: 800px) {
+.Logo {
+font-size: 6rem;
+top: -25px;
+left: -80px;
+}
+}

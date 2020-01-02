@@ -1,0 +1,42 @@
+.Sidedrawer {
+position: absolute;
+top: 0;
+width: 60%;
+right: 1em;
+text-align: right;
+
+nav {
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+ 
+
+}
+
+.Nav {
+
+    transform:translateX(0);
+    transition: transform 300ms ease-in-out;
+
+    }
+
+    .Closed {
+        transform:translateX(200px);
+        transition: transform 300ms ease-in-out;
+     
+        }
+
+
+
+
+
+
+@media(min-width: 800px) {
+    .Sidedrawer {
+    display: none;
+    width: 20%;
+    }
+    }
